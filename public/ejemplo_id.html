@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="colores">ejemplo de texto generico get elemntbyid utilizando funciones</p>
+	<button onclick="changecolor('blue')">PROBANDO COLOR AZUL</button>
+
+	<button onclick="changecolor('red')">PROBANDO COLOR ROJO</button>
+
+	<button onclick="changecolor('yellow')">PROBANDO COLOR AMARILLO</button>
+
+	<script>
+		function changecolor(newcolor)
+		{
+			var elem = document.getElementById('colores');
+			elem.style.color = newcolor;
+		}
+	</script>
+</body>
+</html>
